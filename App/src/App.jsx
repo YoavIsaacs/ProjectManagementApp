@@ -1,7 +1,19 @@
+import Sidebar from "./componenets/Sidebar/Sidebar";
+
 function App() {
+
+  const tempProjects = [
+    {
+      title: "hello"
+    },
+    {
+      title: "world"
+    }
+  ]
+
   return (
     <>
-      <h1 className="my-8 text-center text-5xl font-bold">Hello World</h1>
+      <Sidebar projects={tempProjects}/>
     </>
   );
 }
