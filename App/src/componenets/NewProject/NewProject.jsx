@@ -36,9 +36,9 @@ export default function NewProject({ onAdd }) {
     return (
         <>
             <Modal ref={modal} buttonContent="Okay">
-                <h2>Invalid Input!</h2>
-                <p>It seems you have ebtered one or more invalid inputs.</p>
-                <p>Please make sure you enter valid input for all sections.</p>
+                <h2 className="text-xl font-bold text-stone-700 my-4">Invalid Input!</h2>
+                <p className="text-stone-600 mb-4">It seems you have ebtered one or more invalid inputs.</p>
+                <p className="text-stone-600 mb-4">Please make sure you enter valid input for all sections.</p>
             </Modal>
             <div className="w-[35rem] mt-16">
                 <menu className="flex items-center justify-end gap-4 my-4">
